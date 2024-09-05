@@ -1,0 +1,83 @@
+/* Style for the heading */
+h1 {
+  text-align: center;
+  font-size: 900;
+  padding: 5px;
+  color: #3d3939;
+}
+h1 span {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Style for the form inputs */
+.input {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Style for the submit button */
+.submitButton {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Style for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table, .th, .td {
+  border: 2px solid #ddd;
+}
+
+.th, .td {
+  padding: 8px;
+  text-align: left;
+}
+
+.th {
+  text-align: center;
+  color: #ddd;
+  background-color: #3d3939;
+}
+.table {
+  background-color: aquamarine;
+}
+
+/* Style for the modify button */
+.modifyButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Style for the delete button */
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+
+  .td, .th {
+    padding: 8px;
+  }
+}
